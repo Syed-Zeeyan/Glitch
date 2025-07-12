@@ -1,0 +1,12 @@
+# Ignore entire data folder
+data/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model files
+*.pkl
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
