@@ -20,3 +20,6 @@ elif st.session_state["page"] == "signup":
     show_signup()
 elif st.session_state["page"] == "home":
     show_home()
+elif st.session_state["page"] == "chatbot":
+    import chatbot
+    chatbot.main()
