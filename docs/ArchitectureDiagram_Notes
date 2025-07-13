@@ -1,0 +1,68 @@
+🧾 Project Overview
+Project Name: DeFi Credit Agent
+Hackathon: Agentic Ethereum Hackathon (India)
+Team: Glitch
+
+🔍 Problem Statement
+Traditional credit systems exclude millions without formal credit history or income proof. This is especially true in underbanked areas where salaried employment or formal records are rare. Access to credit becomes biased, opaque, and centralized — leading to financial exclusion.
+
+💡 Our Solution
+DeFi Credit Agent is an AI-powered decentralized credit eligibility system that allows individuals to apply for loans using alternate data and self-sovereign identity.
+
+🧠 AI Model predicts creditworthiness based on financial inputs (income, land ownership, transactions, etc.).
+
+✅ PDF Document Verification (Aadhaar, PAN) for identity validation.
+
+📊 Feature Contribution for transparency.
+
+⛓️ Ethereum Smart Contract is triggered on approval to simulate loan approval on-chain.
+
+💬 Chatbot integrated for assistance.
+
+⚙️ Tech Stack
+Layer	Technology Used
+Frontend	Streamlit + ShadCN UI (Python)
+Backend	Python, Joblib (ML), Web3.py
+AI/ML	AI Chatbot (Ollama - Gemma3)
+Blockchain	Solidity Smart Contract (Ganache)
+Wallet	Ethereum Wallet via Hardhat & Web3
+Chatbot	Streamlit interface (AI Assistant)
+
+🧱 Architecture Breakdown
+User Interface Layer
+
+Secure login/signup
+
+Profile upload (Aadhaar/PAN)
+
+Eligibility form
+
+ML Layer
+
+Blockchain Layer
+
+Smart contract deployed on local Ethereum testnet (Ganache)
+
+Approve loan on-chain (fake hash or live tx)
+
+Storage & Deployment
+
+.env config for secure keys
+
+GitHub repo maintained with Hardhat integration
+
+🚀 Key Highlights
+🔐 No central credit authority needed
+
+🌍 Inclusive of farmers, self-employed, etc.
+
+🔍 Transparent AI decisions
+
+🧾 Document-based profile verification
+
+⚡ Smart contract automation
+
+
+
+
+Architecture Diagram - https://drive.google.com/drive/folders/1ladHYsEo6niHoJIhSg8Fabb777-vRHn9?usp=drive_link
